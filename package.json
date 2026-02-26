@@ -1,7 +1,7 @@
 {
-  "homepage": "https://YourUsername.github.io/student-study-dashboard",
   "name": "student-study",
   "private": true,
+  "homepage": "https://YourUsername.github.io/student-study-dashboard",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+   "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.2.0",
